@@ -1,0 +1,12 @@
+{
+	"name": "Horizon URL management",
+	"action": {},
+	"manifest_version": 3,
+	"version": "0.0.1",
+	"description": "A click to open my own tab page",
+	"permissions": ["tabs", "tabGroups"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"host_permissions": ["<all_urls>"]
+}
