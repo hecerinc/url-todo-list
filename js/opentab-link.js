@@ -13,7 +13,9 @@ const colorMap = {
 class OpenTabLink extends HTMLLIElement {
 	constructor() {
 		super();
+	}
 
+	connectedCallback() {
 		const content = this.textContent;
 		const tabTitle = this.dataset.tabtitle;
 		const tabId = Number(this.dataset.tabid);

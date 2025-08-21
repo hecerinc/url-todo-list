@@ -2,4 +2,4 @@
 
 
 - [ ] Add an export feature
-- [ ] Add the strikethrough when checkbox is checked
+- [x] Add the strikethrough when checkbox is checked
